@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: red;
+}
+
+.App-link {
+  color: #afb7b9;
+}
+
+.install-button {
+  height: 2rem;
+  width: 10rem;
+  font-size: small;
+}
+
+
+
+/* Style */
+
+.outer-wrap {
+  width: 100%;
+  height: auto;
+  background: #dee2e6;
+  padding: 0%;
+}
+
+.custom-card {
+  width: 400px;
+  min-height: 600px;
+  margin: 20px auto;
+  box-shadow: 5px 5px 12px 0px #00000038;
+  border-radius: 15px;
+}
+
+.card.custom-card img {
+  height: 300px;
+  border-radius: 13px 13px 0px 0px;
+}
+
+.p-f-20 {
+  padding: 20px;
+}
+
+.name-fields h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ec0100;
+}
+
+.name-fields h3 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.name-fields {
+  border-left: 2px dashed #3c3c3c;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.content-text p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.phone .svg-icon {
+  width: 30px;
+  height: 30px !important;
+  margin-right: 30px;
+}
+
+.contact-details {
+  margin-top: 30px;
+}
+
+.phone a {
+  color: black;
+  text-decoration: none;
+}
+
+.phone {
+  margin: 10px 0px;
+  display: flex;
+}
+
+
+  .phone:hover svg#Layer1 path {
+      stroke-dashoffset: 2900;
+      stroke-dasharray: 2900;
+      animation: new_stroke 2s linear forwards, new_fill 5s ease forwards;
+  }
+
+@keyframes new_stroke {
+  0% {
+      stroke-dashoffset: 3500;
+      stroke: black;
+      stroke-width: 5;
+  }
+
+  100% {
+      stroke-dashoffset: 1;
+      stroke: black;
+      stroke-width: 5;
+  }
+}
+
+@keyframes new_fill {
+  0% {
+      fill: none;
+      stroke-width: 5;
+  }
+
+  100% {
+      stroke-width: 1;
+  }
+}
+
+.cta-button button {
+  width: 100%;
+  margin: 20px 0px;
+  padding: 10px;
+  background: red !important;
+  border-radius: 0px;
+  border: none;
+  text-transform: uppercase;
+}
+
+.col-center {
+  float: none;
+  margin: 0 auto;
+}
+
+
+.logo2
+{
+  margin-top: 40px;
+}
+
+.introPara
+{
+  margin: 20px;
+  margin-top: 30px;
+}
+
+.QrHolder
+{
+  margin-top: 50px;
+}
